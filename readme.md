@@ -12,3 +12,25 @@ One of the simplest changes that can be implemented is an improved system for pr
 
 ### 2. Improved Digit and Symbol Recognition
 The most time consuming change to the project will be creating a more complex model and system that allows for the app to recognize and solve math equations. this process involves implementing a more powerful or complex model, such as a ResNet or EfficientNet. The other potential change could be implementing a Visual Transformer (ViT), however more research has to be done to implement that. Additionally, improving the outputs recieved from the model, instead of being One-Hot Outputs, would allow for more dynamic and complex recognition.
+
+The second milestone is expanding and creating a more robust dataset from which to train the model and potentially obtain better recognition abilities
+
+### 3. Improved Equation Parsing
+Utilize OCR tools in order to better recognize the characters that are being read in by the model
+
+### 4. Improved Expression Evaluation
+Using a math parsing library instead of using strings to evaluate the outputs and return the expression solution
+
+### 5. Postprocessing 
+Grammar and checks to ensure that the equations make mathematical sense.
+
+## Iteration Goals
+
+### V.1.0.1: Improved Pre/Post Processing
+The first change, add adaptive thresholding and noise reduction, aa well as add in a math parsing library, the second major change would be to create postprocessing checks.
+
+### V1.1.0 Improved Dataset and Equation Parsing
+The second major milestone will be implementing a form of OCR to the model so that it can recognize characters easier, as well as improving the dataset that is being used to train the dataset, the question of which dataset will be used is currently being researched
+
+### V2.0 Improving Model
+The final major milestone would be implementing a new model that would more efficiently evaluate the results of the imputs to give a mathematical solution ot the outputs.
